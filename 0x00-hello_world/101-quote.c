@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	fputs("with proper grammar, but the outcome is a piece of art,\n", stdout);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
