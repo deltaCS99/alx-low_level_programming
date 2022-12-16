@@ -2,6 +2,7 @@
 
 /**
  * _isupper - Determine if is upper
+ * @c - character
  * Return: 0 upon success
  */
 int _isupper(int c)
