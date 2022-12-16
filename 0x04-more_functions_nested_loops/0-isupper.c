@@ -6,7 +6,6 @@
  */
 int _isupper(int c)
 {
-	k
 
 	if (c >= 'A' && c <= 'Z')
 	{
