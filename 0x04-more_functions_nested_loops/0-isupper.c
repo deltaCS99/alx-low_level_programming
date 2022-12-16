@@ -2,7 +2,7 @@
 
 /**
  * _isupper - Determine if is upper
- * @c - character
+ * @c: character
  * Return: 0 upon success
  */
 int _isupper(int c)
@@ -12,7 +12,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	
+
 	return (0);
 
 }
