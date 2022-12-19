@@ -11,7 +11,7 @@
  {
      int len = strlen(s);
      int i;
-     char reversed[len];
+     char* reversed =malloc(len + 1);
      
      for(i = 0 ; i < len; i++)
      {
