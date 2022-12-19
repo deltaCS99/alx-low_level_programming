@@ -10,7 +10,6 @@ void puts2(char *str)
 {
     int i;
     int len = strlen(str);
-   // printf("%d", len);
     if(len == 1)
     {
         printf("%s\n", str);
