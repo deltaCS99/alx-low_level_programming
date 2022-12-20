@@ -1,11 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
+ * _puts - check the code
  *
- * Return: Always 0.
+ * @str: string
+ *
+ * Return: void
  */
- void _puts(char *str)
- {
-    printf("%s\n", str);
- }
+void _puts(char *str)
+{
+	int i;
+	char *c = str;
+
+	while (*c != '\0')
+	{
+		_putchar(*c);
+		c++;
+	}
+
+	_putchar('\n');
+}
