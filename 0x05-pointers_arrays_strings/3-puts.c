@@ -9,7 +9,6 @@
  */
 void _puts(char *str)
 {
-	int i;
 	char *c = str;
 
 	while (*c != '\0')
